@@ -50,24 +50,42 @@ body {
 }
 .plan {
   display: inline-block;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: -0.15rem;
+  margin-right: -0.15rem;
+  padding: 1rem;
   background-color: antiquewhite;
-  width: 26%;
+  width: 28%;
   vertical-align: top;
-  min-height: 18.6rem;
+  min-height: 20.6rem;
   box-shadow: 2px 2px 4px 0px;
 }
 .plan ul {
   list-style: none;
   padding: 0;
 }
-.plan li{
+.plan li {
   padding: 0.25rem;
 }
 .plan-title {
   text-align: center;
   font-weight: bold;
+}
+.highlighted-plan {
+  background-color: #a75502;
+  color: white;
+  min-height: 22.3rem;
+  z-index: 10;
+  position: relative;
+  box-shadow: 2px 2px 4px 0px rgb(0, 0, 0);
+}
+.highlighted-plan .badge {
+  border: 2px solid black;
+  padding: 0.7rem;
+  margin-bottom: 0;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  display: inline-block;
 }
 .footer {
   background-color: black;
